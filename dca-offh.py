@@ -100,7 +100,7 @@ train_loss = []
 test_loss = []
 source_weight = []
 
-K = 1 # training times
+K = 5 # training times
 train_tags = ['dca']
 train_flag = 0
 train_tag = train_tags[train_flag]
@@ -113,7 +113,7 @@ def train(traepo,model):
     #target_iter = iter(target_train_loader)   
 		
     correct = 0
-    early_stop = 3500
+    early_stop = 5000
 
     for i in range(1, args.iter + 1):
         model.train()
