@@ -1,5 +1,6 @@
 # DCA
 The implementation of "Dynamic Classifier Alignment for Unsupervised Multi-Source Domain Adaptation" in Python. 
+
 Code for the TKDE publication. The full paper can be found [here](https://doi.org/10.1109/TKDE.2022.3144423). 
 
 ## Contribution
@@ -23,9 +24,9 @@ Run "dca-offh.py" to validate DCA on dataset Office-Home.
 
 ## Results
 
-| Task  | D | W  | A | Avg  | 
-| ---- | ---- | ---- | ---- | ---- |
-| DCA  | 99.6  | 98.9  | 75.1 | 91.2 |
+| Task  | R | P  | C |  A | Avg  | 
+| ---- | ---- | ---- | ---- | ---- | ---- |
+| DCA  | 81.4  | 80.5  | 63.6 | 72.1 | 74.4 |
 
 
 Please consider citing if you find this helpful or use this code for your research.
